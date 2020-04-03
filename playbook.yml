@@ -3,6 +3,7 @@
   gather_facts: true
   vars:
     jenkins_hostname: "{{ ansible_env.IP_PUBLIC }}"
+    jenkins_admin_password: notadmin
   roles:
     - java
     - jenkins
